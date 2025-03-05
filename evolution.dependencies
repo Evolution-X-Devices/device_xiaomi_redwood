@@ -21,5 +21,11 @@
     "repository" : "thepriyanshujangid/vendor_xiaomi_redwood-miuicamera",
     "target_path": "vendor/xiaomi/redwood-miuicamera",
     "branch"     : "sixteen"
+  },
+  {
+    "remote"     : "github-non-los",
+    "repository" : "thepriyanshujangid/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch"     : "Dolby-Vision-2.1"
   }
 ]
