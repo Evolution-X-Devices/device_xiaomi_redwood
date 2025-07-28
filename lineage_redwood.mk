@@ -28,6 +28,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=redwood \
     SystemName=redwood_global
 
-# Exclude apps
-TARGET_DISABLE_MATLOG := true
-TARGET_EXCLUDES_AUDIOFX := true
+# Evolution specific Flags 
+EVO_BUILD_TYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_DISABLE_EPPE := true
