@@ -196,6 +196,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8350/display/config/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/displayconfig/,$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/)
+
 # Dex to make OTA go faster
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     dalvik.vm.boot-dex2oat-cpu-set=1,2,3,4,5,6,7 \
