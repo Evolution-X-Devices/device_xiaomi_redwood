@@ -169,6 +169,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Dolby Atmos
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+PRODUCT_PACKAGES += \
+    DVParts
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
