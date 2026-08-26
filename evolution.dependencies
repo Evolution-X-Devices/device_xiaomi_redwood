@@ -8,7 +8,7 @@
   {
     "repository" : "vendor_xiaomi_redwood",
     "target_path": "vendor/xiaomi/redwood",
-    "branch"     : "bka"
+    "branch"     : "cnb"
   },
   {
     "remote"     : "github-non-los",
@@ -20,12 +20,12 @@
     "remote"     : "github-non-los",
     "repository" : "thepriyanshujangid/vendor_xiaomi_redwood-miuicamera",
     "target_path": "vendor/xiaomi/redwood-miuicamera",
-    "branch"     : "sixteen"
+    "branch"     : "seventeen"
   },
   {
     "remote"     : "github-non-los",
     "repository" : "thepriyanshujangid/hardware_dolby",
     "target_path": "hardware/dolby",
-    "branch"     : "Dolby-Vision-2.1"
+    "branch"     : "sony-dolby-vision-seventeen"
   }
 ]
